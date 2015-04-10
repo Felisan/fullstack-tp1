@@ -1,0 +1,35 @@
+div, section {
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+  	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+  	box-sizing: border-box;
+}
+.general {
+	position: relative;	
+}
+.nav{
+	background-color: blue;
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	}
+
+h1 {color: white;}
+.chat{
+	background-color: #9999FF;
+}
+.contenedor{
+	position: relative;
+	display: inline-flex;
+	margin-left: 255px;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 100%;
+
+}
+section {
+	border: 2px solid #00FFFF;
+	width: 500px;
+	margin: 20px auto;
+	padding: 50px;
+
+}
